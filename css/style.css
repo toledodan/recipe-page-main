@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Young Serif';
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 400 600 700;
+
+}
+
+body {
+    font-family: 'Outfit';
+    background-color: hsl(30, 54%, 90%);    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    font-weight: 400;
+    
+}
+
+h1, h2 {
+    font-family: 'Young Serif', sans-serif;    
+}
+
+.recipe-container {    
+    width: 500px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    height: 100%;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    
+}
+
+.recipe-container h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.recipe-container > ol, ul {
+    padding-left: 25px; 
+    margin: 0px;
+}
+
+.recipe-container p {
+    font-size: .8em;
+    padding-bottom: 20px;
+    margin: 0px;
+    line-height: 1.6;
+
+}
+
+.recipe-container table {
+    font-size: .8em;
+}
+
+.recipe-container li {
+    font-size: .8em;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    line-height: 1.6;
+}
+
+.hero-image {
+    width: 100%;    
+    border-radius: 10px;
+}
+
+.prep-container {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;    
+    margin-bottom: 30px;
+    border-radius: 10px;    
+}
+
+.prep-container > h4 {
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 10px;
+    margin-top:0px
+}
+
+span {
+    font-weight: 600;
+}
+
+body > div.recipe-container > div > ul > li:nth-child(3) > span
+
+.prep-container li {
+    padding-left: 10px;    
+    line-height: 1.6;
+}
+
+.attribution {
+    padding: 20px;
+}
+
+hr {
+    margin: 25px 0;
+    border: none;
+    border-top: 1px solid #eee;
+
+}
+
+.recipe-container > table, tbody {
+    display: block;
+    
+}
+
+.recipe-container > table > tbody > tr, td {
+    display: flex;
+    align-content: center;    
+    border-collapse: collapse;
+    width: 95%;
+}
+
+.recipe-container > table > tbody > tr {
+    padding: 15px;
+}
+
+.recipe-container > table > tbody > tr:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+body > div.recipe-container > table > tbody > tr {
+    padding-left: 20px;
+}
+
+body > div.recipe-container > table tr td:nth-child(2) {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
